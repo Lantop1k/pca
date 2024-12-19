@@ -1,0 +1,22 @@
+Principal component analysis with MATLAB
+
+step 1 : Given data input, X  with 1000 samples and dimension of 500 and
+         we are to transform the data to m PCA, 
+
+step 2: compute mean of X, Xmean
+
+step 3: compute X_diff, X-Xmean
+
+step 4: compute covariance of diff, covmatrix = cov(diff)
+
+step 5: compute eigen vectors and eigen matrix
+
+step 6: Extract the diagonal of the eigen matrix
+
+step 7: Sort the eigen matrix based base on the diagonal values 
+         and extract the top m matrix
+
+step 8: We compute new matrix as follows: X_pca = X_diff*selected_vector
+   X_pca is the transformed principal component analysis(PCA)
+
+
